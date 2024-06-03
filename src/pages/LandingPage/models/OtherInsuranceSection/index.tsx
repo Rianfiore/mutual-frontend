@@ -1,6 +1,9 @@
 import { Button } from "@/components/atoms/Button";
 import { Section } from "@/components/templates/Section";
 import { FaWhatsapp } from "react-icons/fa";
+import apartment from "/src/assets/apartment.jpg";
+import house from "/src/assets/house.jpg";
+import keys from "/src/assets/keys.jpg";
 
 export function OtherInsuranceSection() {
   return (
@@ -19,7 +22,7 @@ export function OtherInsuranceSection() {
         className="grid grid-cols-3 items-center justify-items-center gap-10 gap-y-20"
       >
         <figure className="rounded-xl overflow-hidden shadow-md bg-[#09204d] min-h-[550px]">
-          <img src="/src/assets/house.jpg" alt="Casa" />
+          <img src={house} alt="Casa" />
 
           <h1 className="p-4 text-white text-lg">
             Que tal contar com nosso seguro fiança para sua tranquilidade?
@@ -28,7 +31,7 @@ export function OtherInsuranceSection() {
           </h1>
         </figure>
         <figure className="rounded-xl overflow-hidden shadow-md bg-[#09204d] min-h-[550px]">
-          <img src="/src/assets/apartment.jpg" alt="Apartamento" />
+          <img src={apartment} alt="Apartamento" />
 
           <h1 className="p-4 text-white">
             Garanta a tranquilidade do seu condomínio com nosso seguro
@@ -38,7 +41,7 @@ export function OtherInsuranceSection() {
           </h1>
         </figure>
         <figure className="rounded-xl overflow-hidden shadow-md bg-[#09204d] min-h-[550px]">
-          <img src="/src/assets/keys.jpg" alt="Residência" />
+          <img src={keys} alt="Residência" />
 
           <h1 className="p-4 text-white">
             Proteja seu lar com nosso seguro residencial. Seja um apartamento,

@@ -2,6 +2,14 @@ import { Button } from "@/components/atoms/Button";
 import { Card } from "@/components/atoms/Card";
 import { Section } from "@/components/templates/Section";
 import { FaWhatsapp } from "react-icons/fa";
+import log1 from "/src/assets/log1.png";
+import log2 from "/src/assets/log2.png";
+import log3 from "/src/assets/log3.png";
+import log4 from "/src/assets/log4.png";
+import log5 from "/src/assets/log5.png";
+import log6 from "/src/assets/log6.png";
+import log7 from "/src/assets/log7.png";
+import log8 from "/src/assets/log8.png";
 
 export function PartnershipSection() {
   return (
@@ -27,14 +35,14 @@ export function PartnershipSection() {
         id="gallery"
         className="grid grid-cols-4 items-center justify-items-center gap-10 gap-y-20"
       >
-        <Card.Secondary icon={<img src="/src/assets/log1.png" />} />
-        <Card.Secondary icon={<img src="/src/assets/log2.png" />} />
-        <Card.Secondary icon={<img src="/src/assets/log3.png" />} />
-        <Card.Secondary icon={<img src="/src/assets/log4.png" />} />
-        <Card.Secondary icon={<img src="/src/assets/log5.png" />} />
-        <Card.Secondary icon={<img src="/src/assets/log6.png" />} />
-        <Card.Secondary icon={<img src="/src/assets/log7.png" />} />
-        <Card.Secondary icon={<img src="/src/assets/log8.png" />} />
+        <Card.Secondary icon={<img src={log1} />} />
+        <Card.Secondary icon={<img src={log2} />} />
+        <Card.Secondary icon={<img src={log3} />} />
+        <Card.Secondary icon={<img src={log4} />} />
+        <Card.Secondary icon={<img src={log5} />} />
+        <Card.Secondary icon={<img src={log6} />} />
+        <Card.Secondary icon={<img src={log7} />} />
+        <Card.Secondary icon={<img src={log8} />} />
       </div>
 
       <Button variant="whatsapp">

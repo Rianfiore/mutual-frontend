@@ -1,4 +1,3 @@
-import { Bolt } from "@/assets/icons/Bolt";
 import { Family } from "@/assets/icons/Family";
 import { Fire } from "@/assets/icons/Fire";
 import { Mirror } from "@/assets/icons/Mirror";
@@ -7,6 +6,7 @@ import { Button } from "@/components/atoms/Button";
 import { Card } from "@/components/atoms/Card";
 import { Section } from "@/components/templates/Section";
 import { FaWhatsapp } from "react-icons/fa";
+import { MdElectricBolt } from "react-icons/md";
 
 export function InsuranceCoverageSection() {
   return (
@@ -39,7 +39,7 @@ export function InsuranceCoverageSection() {
         />
 
         <Card.Primary
-          icon={<Bolt width={120} height={100} />}
+          icon={<MdElectricBolt size={100} color="orange" />}
           title="Danos Elétricos"
           description="A reposição de aparelhos eletrônicos e eletrodomésticos que queimarem por queda de raio ou oscilação de energia é garantida por essa cobertura."
         />
